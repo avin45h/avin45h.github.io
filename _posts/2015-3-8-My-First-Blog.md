@@ -36,4 +36,4 @@ For a person with java or similar background, when we talk about handling concur
 
 With the right implementation and the case, node.js provides a really fast lightweight solution which is just easy to implement. It is far less time consuming to code IF you know what you're doing.
 
-Suggested Read : Node.JS in Action, http://www.manning.com/cantelon/
+Suggested Read : <a href="http://www.manning.com/cantelon/">Node.JS in Action</a>
