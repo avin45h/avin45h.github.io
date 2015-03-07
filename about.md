@@ -14,7 +14,3 @@ permalink: /about/
 
 <p><span style="font-size:14px;"><span style="font-family: verdana,geneva,sans-serif;"><a href="mailto:avinash@justacoder.in">avinash@justacoder.in</a></span></span></p>
 </div>
-
-### Contact me
-
-[avinash@justacoder.in](avinash@justacoder.in)
