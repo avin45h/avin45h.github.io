@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I am a web application developer, primarily JS, previously with Java. A JavaScript Duke (Too many Ninjas out there) who loves to get into new stuffs every now and then.
+I'm a Programmer.
+
+Skills : Java, Javascript, Node.JS, Express.JS, Sails.JS, MongoDB, Angular.JS, D3.JS, jQuery, JSPs, Servlets, Groovy, Grails, MySQL, Postgres, Amazon Web Services
+Work Environment : Arch Linux
 
 ### Contact me
 
