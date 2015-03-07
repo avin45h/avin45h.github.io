@@ -4,8 +4,6 @@ title: Node.js
 comments: true
 ---
 
-<h2 id="nodejs"><span style="font-family:verdana,geneva,sans-serif;"><span style="color: rgb(105, 105, 105);">Node.js</span></span></h2>
-
 <div class="entry">
 <h6><span style="font-family:verdana,geneva,sans-serif;"><span style="color: rgb(105, 105, 105);">(a Java developer&#39;s simple view)</span></span></h6>
 
@@ -44,5 +42,5 @@ comments: true
 
 <p><span style="font-family:verdana,geneva,sans-serif;"><span style="color: rgb(105, 105, 105);"><span style="font-size: 14px;">With the right implementation and the case, node.js provides a really fast lightweight solution which is just easy to implement. It is far less time consuming to code IF you know what you&rsquo;re doing.</span></span></span></p>
 
-<p><span style="font-family:verdana,geneva,sans-serif;"><span style="font-size: 14px;"><span style="color: rgb(105, 105, 105);">Suggested Read : </span><a href="http://www.manning.com/cantelon/"><span style="color: rgb(105, 105, 105);">Node.JS in Action</span></a></span></span></p>
+<p><span style="font-family:verdana,geneva,sans-serif;"><span style="font-size: 14px;"><span style="color: rgb(105, 105, 105);">Suggested Read : </span><a href="http://www.manning.com/cantelon/"><span>Node.JS in Action</span></a></span></span></p>
 </div>
