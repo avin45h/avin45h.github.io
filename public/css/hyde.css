@@ -295,3 +295,7 @@ img.its-me-mario {
 a.post-listing {
   font-size: .8em;
 }
+
+em.my-email {
+  color: red
+}
