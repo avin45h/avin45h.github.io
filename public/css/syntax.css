@@ -59,7 +59,11 @@
 .highlight .vg { color: #033 } /* Name.Variable.Global */
 .highlight .vi { color: #033 } /* Name.Variable.Instance */
 .highlight .il { color: #f60 } /* Literal.Number.Integer.Long */
-.highlight pre { font-size: 12px; }
+.highlight pre {
+    font-size: 12px;
+    max-height: 50vh;
+    overflow: scroll;
+}
 
 .css .o,
 .css .o + .nt,
