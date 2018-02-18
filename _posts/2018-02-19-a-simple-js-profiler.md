@@ -1,9 +1,7 @@
 ---
 layout: post
-title: A simple JS profiler?
+title: How is my node.js code performing?
 ---
-
-# How is my node.js code performing?
 
 Well, below is a nifty piece of code that I use (node.js) almost all the time when I am trying to keep a track of how good my code is performing.
 
