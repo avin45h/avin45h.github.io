@@ -10,12 +10,12 @@ permalink:        pretty
 title:            Just.A.Coder
 tagline:          'A full-stack JS engineer'
 description:      'Oh well!'
-url:              http://www.justacoder.in
-baseurl:          http://www.justacoder.in
+url:              https://www.justacoder.in
+baseurl:          https://www.justacoder.in
 
 author:
   name:           'Avinash'
-  url:            http://github.com/avin45h
+  url:            https://github.com/avin45h
 
 paginate:         5
 paginate_path:    "page:num"
