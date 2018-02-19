@@ -6,15 +6,17 @@
                     {..}
                 </a>
             </h1>
-            <p class="lead">
-                <strong>Just.A.Coder</strong>
-            </p>
-
+            <div class="lead">
+                <a href="/public/docs/resume.pdf">
+                    <strong>Just.A.Coder</strong>
+                </a>
+                <div class="speech-bubble">Hi!</div>      
+                <div class="speech-bubble-reverse">Tap for resume!</div>                
+            </div>
         </div>
 
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
-            <a class="sidebar-nav-item" href="/public/docs/resume.pdf">Resume</a>
+            
 
             {% comment %}
             The code below dynamically generates a sidebar nav of pages with
@@ -30,12 +32,12 @@
             {% endif %}
             {% endif %}
             {% endfor %}
-
-            <div class="sidebar-nav-item">Posts</div>
+            <br>
+            <div class="sidebar-nav-item smaller-text">[ Posts ]</div>
             {% for post in site.posts %}
             <div>
                 <a class="post-listing" href="{{ post.url }}">
-                    {{ post.title }}
+                    - {{ post.title }}
                 </a>
             </div>
             {% endfor %}
@@ -43,10 +45,13 @@
 
         <div class="center siderbar-nav side-footer">
             <a href="https://github.com/avin45h" class="badges">
-                <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" alt="">
+                <img src="/public/images/github.svg" alt="github">
             </a>
-            <a href="https://www.linkedin.com/in/justacoder/" class="badges-img center">
-                <img src="/public/images/linkedin.png" alt="">
+            <a href="https://www.linkedin.com/in/justacoder/" class="badges">
+                <img src="/public/images/linkedin.svg" alt="linkedin">
+            </a>
+            <a href="https://twitter.com/gigakahn" class="badges">
+                <img src="/public/images/twitter.svg" alt="twitter">
             </a>
         </div>
     </div>

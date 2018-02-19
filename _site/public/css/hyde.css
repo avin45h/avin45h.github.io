@@ -131,6 +131,14 @@ a.sidebar-nav-item:focus {
     margin-left: 20rem;
     margin-right: 2rem;
   }
+
+  .resume-link {
+    position: fixed;
+    height: 2em;
+    width: 2em;
+    top: 2em;
+    right: 2em;
+  }
 }
 
 @media (min-width: 64em) {
@@ -140,112 +148,22 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48em) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  a.resume-link {
+    position: fixed;
+    height: 2em;
+    width: 2em;
+    top: 1em;
+    right: 2em;
   }
 }
 
-@media (min-width: 64em) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
 .theme-base-0d .sidebar {
   background-color: #6a9fb5;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
 }
 
 img.its-me-mario {
@@ -259,29 +177,8 @@ img.its-me-mario {
 }
 
 .badges {
-  height: 1.2em;
-  background: white;
-  padding: 5px 8px;
+  height: 3em;
   display: inline-block;
-  border-radius: 8px;
-}
-
-.badges img {
-  height: 100%;
-}
-
-.badges-img {
-  display: inline-block;
-  height: 1.2em;
-  min-width: 50px;
-  background: white;
-  padding: 2px 8px;
-  border-radius: 8px;
-}
-
-.badges-img img {
-  height: 100%;
-  margin: 0;
 }
 
 .sidebar-about {
@@ -294,4 +191,85 @@ img.its-me-mario {
 
 a.post-listing {
   font-size: .8em;
+}
+
+em.my-email {
+  color: red
+}
+
+.smaller-text {
+  font-size: 14px;
+}
+
+.lead {
+  position: relative;
+}
+
+.speech-bubble {
+  position: absolute;
+  background: #fff;
+  border-radius: .2em;
+  width: 2em;
+  color: black;
+  top: -1.5em;
+  right: .8em;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0.7em;
+  border: .7em solid transparent;
+  border-top-color: #fff;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -0.547em;
+  margin-bottom: -1.094em;
+  z-index: 1;
+}
+
+.resume-link {
+  position: fixed;
+  height: 2em;
+  width: 2em;
+  bottom: 2em;
+  right: 2em;
+  top: unset;
+}
+
+.resume-link img {
+  fill: red;  
+}
+
+.speech-bubble-reverse {
+	position: absolute;
+  background: #FFEB3B;
+  border-radius: .2em;
+  color: black;
+  top: 3.5em;
+  right: 2em;
+  font-size: 10px;
+  padding: 4px;
+}
+
+.speech-bubble-reverse:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 0.438em solid transparent;
+	border-bottom-color: #FFEB3B;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -0.219em;
+	margin-top: -0.437em;
+}
+
+.lead a {
+  color: #303030;
 }
