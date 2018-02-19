@@ -148,7 +148,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 300px) {
+@media screen and (max-width: 420px) and (min-width: 300px) {
   a.resume-link {
     position: fixed;
     height: 2em;
@@ -156,6 +156,7 @@ a.sidebar-nav-item:focus {
     top: 1em;
     right: 2em;
   }
+
 }
 
 .theme-base-0d .sidebar {
@@ -201,7 +202,7 @@ em.my-email {
   font-size: 14px;
 }
 
-.lead {
+.lead a {
   position: relative;
 }
 
@@ -212,7 +213,7 @@ em.my-email {
   width: 2em;
   color: black;
   top: -1.5em;
-  right: .8em;
+  right: -2em;
 }
 
 .speech-bubble:after {
@@ -250,9 +251,10 @@ em.my-email {
   border-radius: .2em;
   color: black;
   top: 3.5em;
-  right: 2em;
+  right: -5em;
   font-size: 10px;
   padding: 4px;
+  min-width: 10em;  
 }
 
 .speech-bubble-reverse:after {
@@ -267,7 +269,7 @@ em.my-email {
 	border-top: 0;
 	border-left: 0;
 	margin-left: -0.219em;
-	margin-top: -0.437em;
+  margin-top: -0.437em;
 }
 
 .lead a {
